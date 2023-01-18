@@ -50,6 +50,7 @@ button {
 }
 
 .header-logo-text {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
@@ -74,7 +75,7 @@ button {
 
 .headline-title {
     color: #f9faf8;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
     font-weight: 800;
     display: flex;
@@ -83,10 +84,10 @@ button {
 
 .headline-subtitle {
     color: #e5e7eb;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     flex-grow: 1;
-    margin: 4px 0px;
+    margin: 8px 0px;
 }
 
 .top-image-placeholder {
@@ -95,9 +96,9 @@ button {
     justify-content: center;
     align-items: center;
     background-color: grey;
-    /* flex-basis: 600px;
-    height: 200px; */
-    flex-grow: 1;
+    flex-basis: 425px;
+    /* height: 200px; */
+    /* flex-grow: 1; */
 }
 
 /* First middle section */
@@ -111,7 +112,7 @@ button {
 
 .middle-title {
     color: #1f2937;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
     font-weight: 800;
     text-align: center;
@@ -148,22 +149,32 @@ button {
 
 /* Second middle section */
 .section.second-middle {
+    justify-content: center;
+    /* align-items: stretch; */
+    background-color: #e5e7eb;
+}
+
+.text-area {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
     background-color: #e5e7eb;
+    /* flex-basis: 690px; */
+    flex-shrink: 0;
+    max-width: 690px;
 }
 
 .quote {
-    font-size: 34px;
-    font-family: sans-serif;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 0;
     font-style: italic;
     color: #1f2937;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0px 52px;
+    padding-left: 12px;
 }
 
 .signature {
@@ -171,7 +182,7 @@ button {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0px 82px;
+    padding: 0px 24px;
 }
 
 /* Second middle section */
@@ -187,6 +198,7 @@ button {
     align-items: center;
     background-color: #3882f6;
     padding: 36px 82px;
+    max-width: 800px;
     flex-grow: 1;
     border-radius: 5px;
 }
@@ -205,19 +217,19 @@ button {
 
 .bottom-title {
     color: white;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
 }
 
 .bottom-subtitle {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
 /* Section footer */
 .section.footer {
-    padding: 36px 0px;
+    padding: 24px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
