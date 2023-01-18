@@ -50,7 +50,7 @@ button {
 }
 
 .header-logo-text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
@@ -75,7 +75,7 @@ button {
 
 .headline-title {
     color: #f9faf8;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 48px;
     font-weight: 800;
     display: flex;
@@ -84,7 +84,7 @@ button {
 
 .headline-subtitle {
     color: #e5e7eb;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 18px;
     flex-grow: 1;
     margin: 8px 0px;
@@ -112,7 +112,7 @@ button {
 
 .middle-title {
     color: #1f2937;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 36px;
     font-weight: 800;
     text-align: center;
@@ -167,14 +167,14 @@ button {
 
 .quote {
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     font-weight: 0;
     font-style: italic;
     color: #1f2937;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 12px;
+    padding-left: 16px;
 }
 
 .signature {
@@ -217,13 +217,13 @@ button {
 
 .bottom-title {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
 }
 
 .bottom-subtitle {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     color: white;
 }
 
@@ -234,6 +234,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
+    font-family: Roboto, Helvetica, sans-serif;
     color: white;
     font-weight: bold;
 }
